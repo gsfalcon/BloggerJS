@@ -35,4 +35,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Made with ❤️ by (https://github.com/gsFALCON)[gsFALCON]
+Made with ❤️ by [gsFALCON](https://github.com/gsFALCON)
