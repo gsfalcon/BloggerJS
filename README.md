@@ -1,38 +1,34 @@
 # BloggerJS 🚀
 
-A collection of useful JavaScript widgets and scripts for enhancing Blogger functionality.
+**BloggerJS** is a collection of JavaScript scripts and widgets designed to enhance Blogger functionality.
 
-## Features ✨
-- 📌 Custom widgets for Blogger
-- 🔍 SEO enhancements
-- 📊 Visitor analytics scripts
-- ⚡ Performance optimizations
-- 🗺️ Sitemap generator for better indexing
+## 🔥 Features
+- 📌 **Custom widgets** for Blogger
+- 🔍 **SEO enhancements** for better optimization and indexing
+- 📊 **Visitor analytics scripts**
+- ⚡ **Performance optimizations**
+- 🗺️ **Sitemap generator** for improved indexing
 
-## Installation 📥
-Simply copy the desired script from this repository and include it in your Blogger template or add it as an external script.
+## 📥 Installation
+To use a script, copy the code from the repository and include it in your Blogger template or add it as an external script.
 
-Example:
+### Usage Example:
 ```html
-<script src="https://yourgithubusername.github.io/BloggerJS/script-name.js"></script>
+<script src="https://gsfalcon.github.io/BloggerJS/script-name.js"></script>
 ```
 
-## Scripts Available 📜
-- `blogger-sitemap-html.js` - Generates a sitemap in HTML format for Blogger blogs.
-- `visitor-info.js` - Collects and displays visitor analytics data.
+## 📜 Available Scripts
+- **blogger-sitemap-html.js** - Generates an HTML sitemap for Blogger blogs.
+- **visitor-info.js** - Collects and displays visitor analytics data.
+- **timeAgo.js** - Displays dates in a relative format (e.g., "5 minutes ago").
 
-## How to Use 🛠️
-1. Browse the repository and select a script.
+## 🛠️ How to Use
+1. Browse the repository and choose a script.
 2. Copy the script URL or download the file.
-3. Insert the script into your Blogger template inside the `<head>` or `<body>` section.
-4. Save and enjoy new features!
-
-## Contributing 🤝
-Feel free to fork the repository, submit pull requests, or report issues to improve BloggerJS!
-
-## License 📄
-This project is licensed under the MIT License.
+3. Insert the script into your Blogger template inside the `<head>` or `<body>` tags.
+4. Save your changes and enjoy the new features!
 
 ---
 
-Made with ❤️ by [gsFALCON](https://github.com/gsFALCON)
+Made with ❤️ by [gsFALCON](https://github.com/gsfalcon)
+
