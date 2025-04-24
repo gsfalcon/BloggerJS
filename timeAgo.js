@@ -1,20 +1,21 @@
 /*<![CDATA[*/
 /* Javascript TimeAgo, source: coderwall.com/p/uub3pw/javascript-timeago-func-e-g-8-hours-ago */
+/* PORTUGUESE BRAZIL */
 (function timeAgo(selector) {
     var templates = {
         prefix: "",
-        suffix: " ago",
-        seconds: "few seconds",
-        minute: "a minute",
-        minutes: "%d minutes",
-        hour: "an hour",
-        hours: "%d hours",
-        day: "a day",
-        days: "%d days",
-        month: "a month",
-        months: "%d months",
-        year: "a year",
-        years: "%d years"
+        suffix: " atrás",
+        seconds: "alguns segundos",
+        minute: "um minuto",
+        minutes: "%d minutos",
+        hour: "uma hora",
+        hours: "%d horas",
+        day: "um dia",
+        days: "%d dias",
+        month: "um mês",
+        months: "%d meses",
+        year: "um ano",
+        years: "%d anos"
     };
 
     var template = function (t, n) {
