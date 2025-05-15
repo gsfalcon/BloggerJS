@@ -1,6 +1,6 @@
 # BloggerJS 🚀
 
-**BloggerJS** is a collection of JavaScript scripts and widgets designed to enhance Blogger functionality.
+**BloggerJS** is a collection of JavaScript scripts and widgets designed to enhance Blogspot Blogger functionality.
 
 ---
 
