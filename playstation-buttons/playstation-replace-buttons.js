@@ -36,10 +36,17 @@ document.addEventListener("DOMContentLoaded", function () {
           const img = document.createElement("img");
           img.src = symbolMap[char];
           img.alt = char;
-          img.style.width = "1em"; // escala com o tamanho do texto
+          img.style.width = "1em";
           img.style.height = "1em";
           img.style.verticalAlign = "middle";
           img.style.display = "inline-block";
+
+          // Se estiver dentro de <code>, aumenta o tamanho
+          if (parent.nodeName === "CODE") {
+            img.style.width = "1.4em";
+            img.style.height = "1.4em";
+          }
+
           fragment.appendChild(img);
         } else {
           fragment.appendChild(document.createTextNode(char));
