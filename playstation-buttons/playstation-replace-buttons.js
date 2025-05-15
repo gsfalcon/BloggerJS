@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     "●": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
     "⚫": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
     "⭕": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "○": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "○": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+
 
     // Botão Triângulo
     "△": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
