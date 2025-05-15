@@ -1,27 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
   const symbolMap = {
     // Botão X
-    "✕": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/x.png",
-    "❌": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/x.png",
-    "⨉": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/x.png",
-    "×": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/x.png",
+    "✕": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "❌": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "⨉": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "×": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
 
     // Botão Quadrado
-    "□": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/square.png",
-    "■": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/square.png",
-    "⬛": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/square.png",
-    "🟥": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/square.png",
+    "□": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "■": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "⬛": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "🟥": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
 
     // Botão Círculo
-    "◯": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/circle.png",
-    "●": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/circle.png",
-    "⚫": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/circle.png",
-    "⭕": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/circle.png",
+    "◯": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "●": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "⚫": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "⭕": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
 
     // Botão Triângulo
-    "△": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/triangle.png",
-    "▲": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/triangle.png",
-    "🔺": "https://raw.githubusercontent.com/seu-usuario/seu-repo/main/imagens/triangle.png"
+    "△": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
+    "▲": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
+    "🔺": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png"
   };
 
   function replaceSymbols(node) {
@@ -36,9 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
           const img = document.createElement("img");
           img.src = symbolMap[char];
           img.alt = char;
-          img.style.width = "1em"; // Escala com o texto
-          img.style.height = "1em"; // Para manter proporção
-          img.style.verticalAlign = "middle"; // Alinha com o texto
+          img.style.width = "1em"; // escala com o tamanho do texto
+          img.style.height = "1em";
+          img.style.verticalAlign = "middle";
+          img.style.display = "inline-block";
           fragment.appendChild(img);
         } else {
           fragment.appendChild(document.createTextNode(char));
