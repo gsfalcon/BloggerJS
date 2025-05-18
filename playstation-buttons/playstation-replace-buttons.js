@@ -27,10 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
     "🔺": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png"
   };
 
-  // Bullet Points em <li>
-  "&raquo;": "&#187;",
-
-
     function replaceSymbols(node) {
       if (node.nodeType === Node.TEXT_NODE) {
         const parent = node.parentNode;
