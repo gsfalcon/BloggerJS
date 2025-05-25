@@ -27,10 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "🔺": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png"
   };
 
-<<<<<<< HEAD
   // Função recursiva para substituir os símbolos por imagens
-=======
->>>>>>> 460d71bacb88a8cef1e54cbdc4ba47c2938770b8
   function replaceSymbols(node) {
     if (node.nodeType === Node.TEXT_NODE) {
       const parent = node.parentNode;
