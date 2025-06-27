@@ -1,30 +1,30 @@
 document.addEventListener("DOMContentLoaded", function () {
   const symbolMap = {
     // Botão X
-    "✕": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
-    "❌": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
-    "⨉": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
-    "×": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "✕": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "❌": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "⨉": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_X_button.png",
+    "×": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_X_button.png",
 
     // Botão Quadrado
-    "□": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
-    "■": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
-    "⬛": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
-    "🟥": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "□": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "■": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "⬛": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_square_button.png",
+    "🟥": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_square_button.png",
 
     // Botão Círculo
-    "◯": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
-    "●": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
-    "⚫": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
-    "⭕": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
-    "○": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
-    "○": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "◯": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "●": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "⚫": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "⭕": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "○": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
+    "○": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_circle_button.png",
 
 
     // Botão Triângulo
-    "△": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
-    "▲": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
-    "🔺": "https://gsfalcon.dev/BloggerJS/playstation-buttons/img/playstation_triangle_button.png"
+    "△": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
+    "▲": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_triangle_button.png",
+    "🔺": "https://gsfalcon.github.io/BloggerJS/playstation-buttons/img/playstation_triangle_button.png"
   };
 
   // Função recursiva para substituir os símbolos por imagens
