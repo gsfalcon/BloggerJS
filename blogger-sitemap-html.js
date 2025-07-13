@@ -194,7 +194,7 @@ function displayToc() {
             document.write("<p>");
             document.write('<a " href="' + postUrl[a] + '">' + postTitle[a]);
             if (postRecent[a] == true) {
-                document.write('<span style="float:left;padding-right:5px;padding-left:5px;margin-right:5px;margin-left:-75px;background-color: rgba(51, 51, 51, 0.1);">NOVO 🔥</span>');
+                document.write('<span style="float:left;padding-right:5px;padding-left:5px;margin-right:5px;margin-left:-75px;background-color: rgba(51, 51, 51, 0.1);">🔥</span>');
             }
             document.write("</a></p>");
             a = a + 1;
